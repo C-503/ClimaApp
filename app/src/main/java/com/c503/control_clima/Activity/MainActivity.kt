@@ -38,9 +38,9 @@ private val weatherViewModel : WeatherViewModel by viewModels()
         }
         binding.apply {
 
-            var lat = 51.50
-            var lon = 0.12
-            var name = "London"
+            var lat = 14.969125
+            var lon = -89.535122
+            var name = "Zacapa"
 
             ciudadtext.text = name
             progressBar.visibility = View.VISIBLE
